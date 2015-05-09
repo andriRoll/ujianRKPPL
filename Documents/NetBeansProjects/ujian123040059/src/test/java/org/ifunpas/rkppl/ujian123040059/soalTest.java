@@ -27,13 +27,13 @@ public class soalTest {
     @Test
     public void testPangkat1(){
         s.pangkat(3, 2);
-        System.out.println("Seharusnya tidak null");
+        System.out.println("Seharusnya bisa");
     }
     
     @Test
     public void testPangkat2(){
         s.pangkat(0,0);
-        System.out.println("Seharusnya tidak null");
+        System.out.println("Seharusnya bisa");
     }
     
     @Test
