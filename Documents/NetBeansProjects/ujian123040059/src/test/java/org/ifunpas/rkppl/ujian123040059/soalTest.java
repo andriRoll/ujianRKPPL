@@ -39,25 +39,25 @@ public class soalTest {
     @Test
     public void testFaktorial1(){
         s.faktorial(8);
-        System.out.println("Seharusnya tidak null");
+        System.out.println("Seharusnya bisa");
     }
     
     @Test
     public void testFaktorial2(){
         s.faktorial(0);
-        System.out.println("Seharusnya tidak null");
+        System.out.println("Seharusnya bisa");
     }
     
     @Test
     public void testPerkalian1(){
         s.perkalian(4, 5);
-        System.out.println("Seharusnya tidak null");
+        System.out.println("Seharusnya bisa");
     }
     
     @Test
     public void testPerkalian2(){
         s.perkalian(0, 0);
-        System.out.println("Seharusnya tidak null");
+        System.out.println("Seharusnya bisa");
     }
     
     @After
